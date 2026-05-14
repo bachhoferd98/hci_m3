@@ -1,7 +1,7 @@
 # Cloud Declutter – M3 High-Fidelity Prototyp
 
 **Gruppe:** 03  
-**Team:** Manuel Fink, Alexander Si, Maria Pandolfo, David Bachhofer, Marko Nakev TEST
+**Team:** Manuel Fink, Alexander Si, Maria Pandolfo, David Bachhofer, Marko Nakev
 **Thema:** Cloud Declutter – Intelligenter Assistent für Cloud-Speicherbereinigung
 
 ---

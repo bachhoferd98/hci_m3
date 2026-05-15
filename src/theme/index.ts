@@ -17,9 +17,9 @@ export const COLORS = {
   textOnPrimary: '#FFFFFF',
   border: '#E5E7EB',
   borderLight: '#F3F4F6',
-  googleDrive: '#4285F4',
-  dropbox: '#0061FF',
-  icloud: '#3693F5',
+  googleDrive: '#EB493D',
+  dropbox: '#1382E6',
+  icloud: '#5CB2F7',
   onedrive: '#0078D4',
   duplicate: '#E74C3C',
   blurry: '#F39C12',
@@ -75,9 +75,11 @@ export const CATEGORY_LABELS: Record<string, string> = {
 };
 
 export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
-  duplicate: 'Identische oder sehr ähnliche Dateien, die mehrfach gespeichert sind',
+  duplicate:
+    'Identische oder sehr ähnliche Dateien, die mehrfach gespeichert sind',
   blurry_photo: 'Fotos mit niedriger Auflösung oder Verwacklungsunschärfe',
-  large_unused: 'Dateien über 50 MB, die seit über 6 Monaten nicht geöffnet wurden',
+  large_unused:
+    'Dateien über 50 MB, die seit über 6 Monaten nicht geöffnet wurden',
   old_download: 'Downloads, die älter als 3 Monate sind',
   screenshot: 'Bildschirmfotos und Snippets',
   temp_file: 'Cache- und temporäre Dateien von Apps',

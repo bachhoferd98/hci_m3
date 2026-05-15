@@ -36,13 +36,19 @@ function MainTabs() {
           fontSize: FONT_SIZES.xs,
           fontWeight: '600',
         },
-      }}>
+      }}
+    >
       <Tab.Screen
         name="Dashboard"
         component={DashboardScreen}
         options={{
+          tabBarStyle: {
+            display: 'none',
+          },
           tabBarLabel: 'Dashboard',
-          tabBarIcon: ({ color }) => <Text style={[styles.tabIcon, { color }]}>🏠</Text>,
+          tabBarIcon: ({ color }) => (
+            <Text style={[styles.tabIcon, { color }]}>🏠</Text>
+          ),
         }}
       />
       <Tab.Screen
@@ -50,7 +56,9 @@ function MainTabs() {
         component={RecycleBinScreen}
         options={{
           tabBarLabel: 'Papierkorb',
-          tabBarIcon: ({ color }) => <Text style={[styles.tabIcon, { color }]}>🗑️</Text>,
+          tabBarIcon: ({ color }) => (
+            <Text style={[styles.tabIcon, { color }]}>🗑️</Text>
+          ),
         }}
       />
     </Tab.Navigator>
@@ -67,7 +75,8 @@ function App(): React.JSX.Element {
             screenOptions={{
               headerShown: false,
               contentStyle: { backgroundColor: COLORS.background },
-            }}>
+            }}
+          >
             <Stack.Screen name="Onboarding" component={OnboardingScreen} />
             <Stack.Screen name="MainTabs" component={MainTabs} />
             <Stack.Screen
